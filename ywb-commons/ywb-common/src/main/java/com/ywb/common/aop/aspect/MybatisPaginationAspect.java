@@ -29,7 +29,7 @@ public class MybatisPaginationAspect {
     /**
      * 使用mybatis的PageHelper插件，在mapper的所有find方法拦截
      */
-    @Around(value = "com.zeiet.common.aop.pointcut.PointCutDefine.aroundMybatisPaginationQuery()")
+    @Around(value = "com.ywb.common.aop.pointcut.PointCutDefine.aroundMybatisPaginationQuery()")
     public Object aroundMybatisQuery(ProceedingJoinPoint pjp) throws Throwable{
         Object[] args = pjp.getArgs();
         Pageable pageable = null;

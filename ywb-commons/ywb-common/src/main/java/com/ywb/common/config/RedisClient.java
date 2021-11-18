@@ -1,7 +1,7 @@
-package com.zeiet.common.config;
+package com.ywb.common.config;
 
-import com.zeiet.common.constant.ApiConstant;
-import com.zeiet.common.util.BaseMap;
+import com.ywb.common.constant.ApiConstant;
+import com.ywb.common.util.BaseMap;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.core.RedisTemplate;

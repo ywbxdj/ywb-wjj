@@ -1,6 +1,6 @@
-package com.zeiet.common.config;
+package com.ywb.common.config;
 
-import com.zeiet.common.repository.impl.BaseJpaRepositoryImpl;
+import com.ywb.common.repository.impl.BaseJpaRepositoryImpl;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -34,7 +34,7 @@ import java.io.IOException;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(repositoryBaseClass = BaseJpaRepositoryImpl.class, basePackages = "com.zeiet.**.repository")
+@EnableJpaRepositories(repositoryBaseClass = BaseJpaRepositoryImpl.class, basePackages = "com.ywb.common.repository")
 public class DataSourceConfig {
     private Logger logger = LoggerFactory.getLogger(DataSourceConfig.class);
     private String AOP_POINTCUT_EXPRESSION = "execution (* com..service.impl.*.*(..))";

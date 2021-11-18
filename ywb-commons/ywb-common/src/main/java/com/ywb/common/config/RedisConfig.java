@@ -1,11 +1,11 @@
-package com.zeiet.common.config;
+package com.ywb.common.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.zeiet.common.constant.ApiConstant;
-import com.zeiet.common.listener.impl.RedisReceiver;
-import com.zeiet.common.util.RedisUtil;
+import com.ywb.common.constant.ApiConstant;
+import com.ywb.common.listener.impl.RedisReceiver;
+import com.ywb.common.util.RedisUtil;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
