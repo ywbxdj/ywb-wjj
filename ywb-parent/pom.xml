@@ -6,7 +6,11 @@
 
     <groupId>com.ywb</groupId>
     <artifactId>parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>../ywb-commons</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
